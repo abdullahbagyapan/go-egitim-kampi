@@ -6,3 +6,19 @@
 
 Go programlama dilini öğrenirken tuttuğum notları ve yazdığım kodları burada bulabilirsiniz.
 Bu kamp boyunca birincil kaynak olarak Go Türkiye'nin [eğitim kampını]("https://github.com/GoTurkiye/training") kullandım.
+
+## İçerik
+
+* Basics
+	* Variables
+	* Array
+    * Slices
+    * Maps
+    * Strings
+    * Loops
+    * Structs
+    * Pointers
+    * Functions
+    * Errors
+    * Interfaces
+    * Modules
