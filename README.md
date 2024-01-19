@@ -9,8 +9,8 @@ Bu kamp boyunca birincil kaynak olarak Go Türkiye'nin [eğitim kampını]("http
 
 ## İçerik
 
-* Basics
-	* Variables
+* [Basics](101-basics/README.md)
+	* [Variables](101-basics/variables/README.md)
 	* Array
     * Slices
     * Maps
