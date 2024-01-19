@@ -5,7 +5,7 @@
 # Go Eğitim Kampı
 
 Go programlama dilini öğrenirken tuttuğum notları ve yazdığım kodları burada bulabilirsiniz.
-Bu kamp boyunca birincil kaynak olarak [Go Türkiye]("https://github.com/GoTurkiye")'nin [eğitim kampını]("https://github.com/GoTurkiye/training") kullandım.
+Bu kamp boyunca birincil kaynak olarak [Go Türkiye](https://github.com/GoTurkiye)'nin [eğitim kampını](https://github.com/GoTurkiye/training) kullandım.
 
 ## İçerik
 
