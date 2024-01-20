@@ -14,7 +14,7 @@ Bu kamp boyunca birincil kaynak olarak [Go Türkiye](https://github.com/GoTurkiy
 	* [Array](101-basics/array/README.md)
     * [Slices](101-basics/slice/README.md)
     * [Maps](101-basics/map/README.md)
-    * Strings
+    * [Strings](101-basics/string/README.md)
     * Loops
     * Structs
     * Pointers
