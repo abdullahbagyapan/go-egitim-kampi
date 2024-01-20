@@ -13,7 +13,7 @@ Bu kamp boyunca birincil kaynak olarak [Go Türkiye](https://github.com/GoTurkiy
 	* [Variables](101-basics/variables/README.md)
 	* [Array](101-basics/array/README.md)
     * [Slices](101-basics/slice/README.md)
-    * Maps
+    * [Maps](101-basics/map/README.md)
     * Strings
     * Loops
     * Structs
