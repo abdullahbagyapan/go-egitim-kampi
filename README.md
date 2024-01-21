@@ -18,7 +18,7 @@ Bu kamp boyunca birincil kaynak olarak [Go Türkiye](https://github.com/GoTurkiy
     * [Loops](101-basics/loops/README.md)
     * [Structs](101-basics/structs/README.md)
     * [Pointers](101-basics/pointer/README.md)
-    * Functions
+    * [Functions](101-basics/functions/README.md)
     * Errors
     * Interfaces
     * Modules
