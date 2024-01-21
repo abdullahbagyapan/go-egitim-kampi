@@ -1,6 +1,6 @@
 # Pointers
 
-Pointer bir değerin hafızadaki adresini tutar.
+Pointer bir değişkenin hafızadaki adresini tutar.
 
 ## Tanımlama
 
