@@ -21,4 +21,4 @@ Bu kamp boyunca birincil kaynak olarak [Go Türkiye](https://github.com/GoTurkiy
     * [Functions](101-basics/functions/README.md)
     * [Errors](101-basics/error/README.md)
     * [Interfaces](101-basics/interface/README.md)
-    * Modules
+    * [Modules](101-basics/modules/README.md)
