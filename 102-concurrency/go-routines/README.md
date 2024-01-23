@@ -93,3 +93,57 @@ kodun çıktısı:
 Peki bu durumdan nasıl kurtuluruz, cevap `WaitGroup`.
 
 ## WaitGroup
+
+WaitGroup bir blocklama mekanizmasıdır, çalışan goroutine kalmayıncaya kadar bloklamaya devam eder.
+
+
+### WaitGroup Tanımlama
+
+WaitGroup `sync` paketi altındadır,
+
+```go
+wg := sync.WaitGroup{}
+```
+
+şeklinde tanımlanır.
+
+### WaitGroup Methodları
+
+WaitGroup altında <b>3</b> tane method vardır, bunlar:
+
+1. Add()
+2. Wait()
+3. Done()
+
+#### Add() Methodu
+
+`Add()` methodu ile beklenecek goroutine sayısı tanımlanır.
+
+```go
+wg := sync.WaitGroup{}
+
+wg.Add(1)
+```
+
+#### Wait() Methodu
+
+WaitGroup sayacı 0 olana kadar blocklama devam eder.
+
+#### Done() Methodu
+
+WaitGroup sayacını 1 azaltır.
+
+```go
+wg := sync.WaitGroup{}
+
+wg.Add(1)
+
+go func() {
+    time.Sleep(time.Second)
+    wg.Done()
+}()
+
+wg.Wait()
+```
+
+> WaitGroup ile alakalı daha fazla bilgiye [burayadan](https://pkg.go.dev/sync#WaitGroup) ulaşabilirsinizs.
