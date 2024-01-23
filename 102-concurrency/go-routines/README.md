@@ -146,4 +146,4 @@ go func() {
 wg.Wait()
 ```
 
-> WaitGroup ile alakalı daha fazla bilgiye [burayadan](https://pkg.go.dev/sync#WaitGroup) ulaşabilirsinizs.
+> WaitGroup ile alakalı daha fazla bilgiye [buradan](https://pkg.go.dev/sync#WaitGroup) ulaşabilirsiniz.
