@@ -147,3 +147,63 @@ wg.Wait()
 ```
 
 > WaitGroup ile alakalı daha fazla bilgiye [buradan](https://pkg.go.dev/sync#WaitGroup) ulaşabilirsiniz.
+
+## Race Condition
+
+### Race Condition Nedir ?
+
+Çoklu threadler, hafızadaki değere aynı anda ulaşmak ve değiştirmek durumunda kaldıklarında ortaya race condition durumu çıkar.
+
+Peki race condition sorununu nasıl çözeriz, cevap: `Mutex`
+
+## Mutex
+
+Mutex, çoklu threadler bir veriyi okumak yada yazmak istediğinde verinin tutarlılığını sağlamak için veriyi kilitleyen bir mekanizmadır.
+
+### Mutex Tanımlama
+
+Mutex, `sync` paketinin altındadır.
+
+```go
+lock := sync.Mutex{}
+```
+
+şeklinde tanımlanır.
+
+### Mutex Methodları
+
+Mutex altında <b>3</b> tane method vardır, bunlar:
+
+1. Lock()
+2. TryLock()
+3. Unlock()
+
+#### Lock() Methodu
+
+Go runtimenında hafızadaki değerlerin tek bir goroutine tarafından okuma/yazma yapılmasını sağlar, kilitmeyi sağlar.
+
+```go
+lock.Lock()
+```
+
+şeklinde kullanılır.
+
+Kilitlenen değişkenler sıra(queue) yapısına göre işlenir (FIFO).
+
+#### TryLock() Methodu
+
+Eğer *deadlock* oluşturmayacak ise kilitler ve sonucunu döner.
+
+```go
+isLock := lock.TryLock()
+```
+
+şeklinde kullanılır.
+
+#### Unlock() Methodu
+
+Kilitlenen değişkeni serbest bırakır.
+
+```go
+lock.Unlock()
+```
