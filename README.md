@@ -24,7 +24,7 @@ Bu kamp boyunca birincil kaynak olarak [Go Türkiye](https://github.com/GoTurkiy
     * [Modules](101-basics/modules/README.md)
 
 * [Concurrency](102-concurrency/README.md)
-    * Go Routines
+    * [Go Routines](102-concurrency/go-routines/README.md)
     * Channels
     * WaitGroups
     * Mutex
