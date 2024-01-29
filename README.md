@@ -29,5 +29,5 @@ Bu kamp boyunca birincil kaynak olarak [Go Türkiye](https://github.com/GoTurkiy
     * [Dead Lock](102-concurrency/deadlocks/README.md)
 
 * Http Package
-    * ['Hello World' Page Using Web Framework](103-http/helloworld/main.go)
+    * ['Hello World' Page Using Web Framework](103-http/helloworld/README.md)
     * Reverse Proxy
