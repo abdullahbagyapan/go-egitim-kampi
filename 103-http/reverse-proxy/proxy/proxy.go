@@ -47,5 +47,6 @@ func (h Handler) ProxyHandler(c *fiber.Ctx) error {
 func randomProxy() ProxyInterface {
 
 	len := len(proxies)
+	i++
 	return proxies[i%len]
 }
