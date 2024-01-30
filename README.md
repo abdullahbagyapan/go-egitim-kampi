@@ -31,3 +31,12 @@ Bu kamp boyunca birincil kaynak olarak [Go Türkiye](https://github.com/GoTurkiy
 * Http Package
     * ['Hello World' Page Using Web Framework](103-http/helloworld/README.md)
     * [Reverse Proxy](103-http/reverse-proxy/README.md)
+
+* I/O
+    * File ops.
+    * Network ops.
+    * Bytes
+    * io.Reader
+    * io.Writer
+    * io.TeeReader
+    * io.MultiWriter
